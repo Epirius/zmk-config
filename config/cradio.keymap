@@ -40,7 +40,7 @@
 &kp Q  &kp W  &kp F       &kp P               &kp B                   &kp J                &kp L       &kp U                 &kp Y                &kp ESCAPE
 &kp A  &kp R  &ht LALT S  &ht LGUI T          &kp G                   &kp M                &ht RGUI N  &ht RALT E            &kp I                &kp O
 &kp Z  &kp X  &kp C       &kp D               &kp V                   &kp K                &kp H       &ht COMMA UNDERSCORE  &ht DOT EXCLAMATION  &kp FSLH
-                          &mt LEFT_GUI SPACE  &ht LEFT_SHIFT ENTER    &ht LCTRL BACKSPACE  &to 1
+                          &mt LEFT_GUI ENTER  &ht LEFT_SHIFT SPACE    &ht LCTRL BACKSPACE  &to 1
             >;
         };
 
