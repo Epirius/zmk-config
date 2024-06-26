@@ -37,7 +37,7 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F       &kp P               &kp B             &kp J      &kp L       &kp U                 &kp Y                &ht BACKSPACE ENTER
+&kp Q  &kp W  &kp F       &kp P               &kp B             &kp J      &kp L       &kp U                 &kp Y                &ht ENTER BACKSPACE
 &kp A  &kp R  &ht LALT S  &ht LGUI T          &kp G             &kp M      &ht RGUI N  &ht RALT E            &kp I                &kp O
 &kp Z  &kp X  &kp C       &kp D               &kp V             &kp K      &kp H       &ht COMMA UNDERSCORE  &ht DOT EXCLAMATION  &kp FSLH
                           &mt LEFT_GUI SPACE  &kp LEFT_SHIFT    &kp LCTRL  &sl 1
