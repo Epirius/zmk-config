@@ -37,19 +37,19 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F       &kp P               &kp B                       &kp J            &kp L       &kp U                 &kp Y                &kp ESCAPE
-&kp A  &kp R  &ht LALT S  &ht LGUI T          &kp G                       &kp M            &ht RGUI N  &ht RALT E            &kp I                &kp O
-&kp Z  &kp X  &kp C       &kp D               &kp V                       &kp K            &kp H       &ht COMMA UNDERSCORE  &ht DOT EXCLAMATION  &kp FSLH
-                          &mt LEFT_GUI SPACE  &ht LEFT_SHIFT BACKSPACE    &ht LCTRL ENTER  &to 1
+&kp Q  &kp W  &kp F       &kp P               &kp B                   &kp J                &kp L       &kp U                 &kp Y                &kp ESCAPE
+&kp A  &kp R  &ht LALT S  &ht LGUI T          &kp G                   &kp M                &ht RGUI N  &ht RALT E            &kp I                &kp O
+&kp Z  &kp X  &kp C       &kp D               &kp V                   &kp K                &kp H       &ht COMMA UNDERSCORE  &ht DOT EXCLAMATION  &kp FSLH
+                          &mt LEFT_GUI SPACE  &ht LEFT_SHIFT ENTER    &ht LCTRL BACKSPACE  &to 1
             >;
         };
 
         Layer-2 {
             bindings = <
-&kp TAB     &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT                 &kp CARET         &kp AMPERSAND         &kp ASTERISK           &kp EQUAL          &kp ESCAPE
-&kp ESCAPE  &kp SEMI     &kp GRAVE  &kp SQT         &kp DOUBLE_QUOTES           &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp ENTER
-&kp TILDE   &kp PLUS     &kp MINUS  &kp UNDERSCORE  &kp EXCLAMATION             &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &to 2
-                                    &to 0           &ht LEFT_SHIFT BACKSPACE    &ht LCTRL ENTER   &to 3
+&kp TAB     &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT          &kp CARET         &kp AMPERSAND         &kp ASTERISK           &kp EQUAL          &kp ESCAPE
+&kp ESCAPE  &kp SEMI     &kp GRAVE  &kp SQT         &kp DOUBLE_QUOTES    &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp ENTER
+&kp TILDE   &kp PLUS     &kp MINUS  &kp UNDERSCORE  &kp EXCLAMATION      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &to 2
+                                    &to 0           &trans               &trans            &to 3
             >;
         };
 
@@ -67,7 +67,7 @@
 &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT    &kp K_PLAY_PAUSE    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp ASTRK        &kp EQUAL               &kp BACKSPACE
 &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4  &kp N5              &kp NUMBER_6          &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9            &kp RETURN
 &trans        &kp PLUS           &kp MINUS        &trans        &trans              &kp NUMBER_0          &trans                &ht COMMA MINUS  &ht PERIOD EXCLAMATION  &to 2
-                                                  &to 0         &kp LEFT_GUI        &ht LCTRL ENTER       &kp LALT
+                                                  &to 0         &kp LEFT_GUI        &trans                &kp LALT
             >;
         };
     };
