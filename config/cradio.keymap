@@ -40,7 +40,7 @@
 &kp Q  &kp W  &kp F       &kp P               &kp B             &kp J      &kp L       &kp U                 &kp Y                &ht ENTER BACKSPACE
 &kp A  &kp R  &ht LALT S  &ht LGUI T          &kp G             &kp M      &ht RGUI N  &ht RALT E            &kp I                &kp O
 &kp Z  &kp X  &kp C       &kp D               &kp V             &kp K      &kp H       &ht COMMA UNDERSCORE  &ht DOT EXCLAMATION  &kp FSLH
-                          &mt LEFT_GUI SPACE  &kp LEFT_SHIFT    &kp LCTRL  &sl 1
+                          &mt LEFT_GUI SPACE  &kp LEFT_SHIFT    &kp LCTRL  &to 1
             >;
         };
 
@@ -48,8 +48,8 @@
             bindings = <
 &kp TAB     &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT          &kp CARET         &kp AMPERSAND         &kp ASTERISK           &kp EQUAL          &kp BACKSPACE
 &kp ESCAPE  &kp SEMI     &kp GRAVE  &kp SQT         &kp DOUBLE_QUOTES    &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp ENTER
-&kp TILDE   &kp PLUS     &kp MINUS  &kp UNDERSCORE  &kp EXCLAMATION      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &sl 2
-                                    &sl 0           &kp LEFT_SHIFT       &kp LCTRL         &sl 3
+&kp TILDE   &kp PLUS     &kp MINUS  &kp UNDERSCORE  &kp EXCLAMATION      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &to 2
+                                    &to 0           &kp LEFT_SHIFT       &kp LCTRL         &to 3
             >;
         };
 
@@ -58,7 +58,7 @@
 &kp TAB     &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4
 &kp ESCAPE  &trans  &trans  &trans  &trans    &bt BT_CLR    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT
 &sys_reset  &trans  &trans  &trans  &trans    &trans        &trans          &trans          &trans        &trans
-                            &sl 0   &trans    &trans        &trans
+                            &to 0   &trans    &trans        &to 3
             >;
         };
 
@@ -66,8 +66,8 @@
             bindings = <
 &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT    &kp K_PLAY_PAUSE    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp ASTRK        &kp EQUAL               &kp BACKSPACE
 &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4  &kp N5              &kp NUMBER_6          &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9            &kp RETURN
-&trans        &kp PLUS           &kp MINUS        &trans        &trans              &kp NUMBER_0          &trans                &ht COMMA MINUS  &ht PERIOD EXCLAMATION  &sl 2
-                                                  &sl 0         &kp LEFT_GUI        &kp LCTRL             &kp LALT
+&trans        &kp PLUS           &kp MINUS        &trans        &trans              &kp NUMBER_0          &trans                &ht COMMA MINUS  &ht PERIOD EXCLAMATION  &to 2
+                                                  &to 0         &kp LEFT_GUI        &kp LCTRL             &kp LALT
             >;
         };
     };
