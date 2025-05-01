@@ -42,5 +42,14 @@
                      &kp LSHFT  &kp SPACE    &kp BSPC  &kp LCTRL
             >;
         };
+
+        layer_1 {
+            bindings = <
+&kp N1      &kp N2  &kp N3          &kp N4          &kp N5             &kp N6        &kp N7  &kp N8            &kp N9             &kp N0
+&kp TAB     &trans  &trans          &kp UP_ARROW    &kp GRAVE          &kp LEFT_WIN  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp ESCAPE  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans        &trans  &kp SEMICOLON     &kp SQT            &kp SLASH
+                                    &trans          &trans             &trans        &trans
+            >;
+        };
     };
 };
